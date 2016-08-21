@@ -101,7 +101,7 @@ public class Ejercicio4 extends javax.swing.JFrame {
         });
         jPanel1.add(txtCuotas, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 210, -1));
 
-        cmdCalcular.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        cmdCalcular.setFont(new java.awt.Font("Tempus Sans ITC", 1, 12)); // NOI18N
         cmdCalcular.setForeground(new java.awt.Color(0, 255, 102));
         cmdCalcular.setText("CALCULAR");
         cmdCalcular.addActionListener(new java.awt.event.ActionListener() {
