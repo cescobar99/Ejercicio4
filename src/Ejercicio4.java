@@ -87,6 +87,7 @@ public class Ejercicio4 extends javax.swing.JFrame {
         jLabel5.setText("Valor 12 cuotas");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
 
+        txtCuotaInicial.setEditable(false);
         txtCuotaInicial.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCuotaInicialKeyTyped(evt);
@@ -94,6 +95,7 @@ public class Ejercicio4 extends javax.swing.JFrame {
         });
         jPanel1.add(txtCuotaInicial, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, 210, -1));
 
+        txtCuotas.setEditable(false);
         txtCuotas.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCuotasKeyTyped(evt);
